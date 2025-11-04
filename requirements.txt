@@ -1,0 +1,40 @@
+# Core dependencies for Mongolian History ETL Pipeline
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+tqdm>=4.65.0
+
+# Web scraping and data collection
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Text processing
+regex>=2023.6.3
+
+# API integration
+openai>=1.0.0
+
+# File handling
+pathlib2>=2.3.7
+
+# Development and testing
+pytest>=7.4.0
+pytest-mock>=3.11.0
+pytest-cov>=4.1.0
+
+# Optional but recommended
+jupyter>=1.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# For embeddings and vector operations (RAG system)
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+chromadb>=0.4.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0

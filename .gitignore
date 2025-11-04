@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.bin
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# API Keys (never commit these!)
+*.key
+*_key.txt
+api_keys.json
+
+# Large model files
+models/*/pytorch_model.bin
+models/*/model.safetensors
+models/*/*.bin
+models/*/tokenizer.model
+
+# Training outputs
+training_logs/
+wandb/
+runs/
+
+# Data files (some are too large for git)
+data/*.pdf
+data/*.txt
+data/*_large.json*
+data/embeddings_demo/
+data/generated/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Backup files
+*_backup.*
+*.bak
+
+# Test outputs
+test_outputs/
+demo_outputs/
+
+# Colab specific
+.config/
+
+# Keep important demo files but ignore large outputs
+!data/demo_*.json*
+!data/test_*.json*
+!data/*_sample.json*

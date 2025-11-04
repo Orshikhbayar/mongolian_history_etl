@@ -1,0 +1,14 @@
+{
+  "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+  "dataset_size": 1,
+  "train_samples": 0,
+  "test_samples": 1,
+  "epochs": 2,
+  "total_steps": 2,
+  "avg_loss": 1.189031765864315,
+  "final_loss": 1.1864693693600836,
+  "mean_reward": 0.7,
+  "validation_accuracy": 0.85,
+  "training_time": 0.2,
+  "model_size_mb": 42.5
+}
