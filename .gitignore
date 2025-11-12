@@ -1,3 +1,6 @@
+# Environment variables (contains API keys)
+.env
+
 # Python
 __pycache__/
 *.py[cod]
@@ -19,24 +22,12 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# PyTorch
-*.pth
-*.pt
-*.bin
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Environment variables
-.env
-.venv
-env/
+# Virtual environments
 venv/
+.venv/
 ENV/
-env.bak/
-venv.bak/
+env/
 
 # IDE
 .vscode/
@@ -47,55 +38,31 @@ venv.bak/
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Project specific
-# API Keys (never commit these!)
-*.key
-*_key.txt
-api_keys.json
+# Logs
+*.log
 
-# Large model files
-models/*/pytorch_model.bin
-models/*/model.safetensors
-models/*/*.bin
-models/*/tokenizer.model
+# Model files (too large for git)
+models/
+*.pth
+*.bin
+*.safetensors
 
-# Training outputs
-training_logs/
-wandb/
-runs/
-
-# Data files (some are too large for git)
-data/*.pdf
-data/*.txt
-data/*_large.json*
-data/embeddings_demo/
-data/generated/
+# Embeddings (generated locally)
+data/embeddings/
+data/embeddings_local/
+data/embeddings_filtered/
 
 # Temporary files
 *.tmp
-*.temp
-*.log
-*.cache
-
-# Backup files
-*_backup.*
 *.bak
+*.backup
 
-# Test outputs
-test_outputs/
-demo_outputs/
+# Jupyter
+.ipynb_checkpoints/
 
-# Colab specific
-.config/
-
-# Keep important demo files but ignore large outputs
-!data/demo_*.json*
-!data/test_*.json*
-!data/*_sample.json*
+# API keys and secrets
+*.key
+*.pem
+secrets.json
