@@ -90,7 +90,12 @@ def check_dataset():
     """Check if the unified dataset exists."""
     logger = logging.getLogger(__name__)
     
-    dataset_path = Path('data/mongolian_history_unified.jsonl')
+    # Use filtered dataset (excludes Secret History)
+    dataset_path = Path('data/mongolian_history_unified_filtered.jsonl')
+    
+    # Fallback to original if filtered doesn't exist
+    if not dataset_path.exists():
+        dataset_path = Path('data/mongolian_history_unified.jsonl')
     if not dataset_path.exists():
         logger.error(f"Dataset not found: {dataset_path}")
         logger.info("Please run the data cleaning script first:")
@@ -129,7 +134,12 @@ def create_embeddings():
         embedder = MongolianHistoryEmbedder(config)
         
         # Create embeddings
-        index, metadata = embedder.create_embeddings('data/mongolian_history_unified.jsonl')
+        # Use filtered dataset
+        dataset_file = 'data/mongolian_history_unified_filtered.jsonl'
+        if not Path(dataset_file).exists():
+            dataset_file = 'data/mongolian_history_unified.jsonl'
+        
+        index, metadata = embedder.create_embeddings(dataset_file)
         
         # Save pipeline
         summary = embedder.save_pipeline(index, metadata)
