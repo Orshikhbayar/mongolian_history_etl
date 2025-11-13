@@ -1,0 +1,8 @@
+{
+  "embedding_model": "mock-embedding-model",
+  "embedding_dimension": 1536,
+  "chunk_size": 1000,
+  "index_type": "Flat",
+  "total_chunks": 749,
+  "is_demo": true
+}

@@ -1,0 +1,30 @@
+{
+  "generation_summary": {
+    "total_topics": 20,
+    "successful_generations": 20,
+    "failed_generations": 0,
+    "total_entries": 65,
+    "total_tokens_used": 18450,
+    "processing_time_seconds": 342.7,
+    "success_rate": 100.0
+  },
+  "configuration": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.25,
+    "max_tokens": 900,
+    "max_retries": 3
+  },
+  "generation_timestamp": "2025-11-04T12:14:53.673654",
+  "output_files": {
+    "dataset_file": "mongolian_history_dataset_demo.json",
+    "dataset_size_bytes": 3427,
+    "report_file": "generation_report_demo.json"
+  },
+  "sample_topics_processed": [
+    "1911 revolution and the establishment of Bogd Khanate",
+    "1915 Khiagta Treaty and Mongolian autonomy",
+    "1921 Mongolian People's Revolution",
+    "Democratic Revolution of 1990 in Mongolia",
+    "Mining boom: Oyu Tolgoi, Tavan Tolgoi and resource-based growth"
+  ]
+}

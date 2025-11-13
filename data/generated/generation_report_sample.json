@@ -1,0 +1,167 @@
+{
+  "generation_summary": {
+    "total_topics": 20,
+    "successful_generations": 20,
+    "failed_generations": 0,
+    "total_entries": 65,
+    "total_tokens_used": 18450,
+    "processing_time_seconds": 342.7,
+    "success_rate": 100.0
+  },
+  "configuration": {
+    "model": "gpt-4o-mini",
+    "temperature": 0.25,
+    "max_tokens": 900,
+    "max_retries": 3
+  },
+  "topic_results": [
+    {
+      "topic": "1911 revolution and the establishment of Bogd Khanate",
+      "entries_generated": 3,
+      "tokens_used": 892,
+      "processing_time": 15.2,
+      "success": true
+    },
+    {
+      "topic": "1915 Khiagta Treaty and Mongolian autonomy",
+      "entries_generated": 3,
+      "tokens_used": 876,
+      "processing_time": 14.8,
+      "success": true
+    },
+    {
+      "topic": "1921 Mongolian People's Revolution",
+      "entries_generated": 4,
+      "tokens_used": 945,
+      "processing_time": 16.1,
+      "success": true
+    },
+    {
+      "topic": "Formation of the Mongolian People's Republic in 1924",
+      "entries_generated": 3,
+      "tokens_used": 823,
+      "processing_time": 13.9,
+      "success": true
+    },
+    {
+      "topic": "Choibalsan era and Soviet influence (1930s-1950s)",
+      "entries_generated": 3,
+      "tokens_used": 901,
+      "processing_time": 15.7,
+      "success": true
+    },
+    {
+      "topic": "Collectivization and agricultural reforms in Mongolia",
+      "entries_generated": 3,
+      "tokens_used": 887,
+      "processing_time": 14.5,
+      "success": true
+    },
+    {
+      "topic": "World War II and Mongolia's role in the Pacific theater",
+      "entries_generated": 3,
+      "tokens_used": 912,
+      "processing_time": 16.3,
+      "success": true
+    },
+    {
+      "topic": "Post-war reconstruction and industrialization (1950s-1960s)",
+      "entries_generated": 3,
+      "tokens_used": 856,
+      "processing_time": 14.2,
+      "success": true
+    },
+    {
+      "topic": "Tsedenbal era and socialist development (1960s-1980s)",
+      "entries_generated": 3,
+      "tokens_used": 934,
+      "processing_time": 15.8,
+      "success": true
+    },
+    {
+      "topic": "Cultural Revolution impact on Mongolia in the 1960s",
+      "entries_generated": 3,
+      "tokens_used": 889,
+      "processing_time": 15.1,
+      "success": true
+    },
+    {
+      "topic": "Economic development and mining industry growth (1970s-1980s)",
+      "entries_generated": 4,
+      "tokens_used": 967,
+      "processing_time": 17.2,
+      "success": true
+    },
+    {
+      "topic": "Perestroika influence and political changes in late 1980s",
+      "entries_generated": 3,
+      "tokens_used": 845,
+      "processing_time": 13.8,
+      "success": true
+    },
+    {
+      "topic": "Democratic Revolution of 1990 in Mongolia",
+      "entries_generated": 4,
+      "tokens_used": 978,
+      "processing_time": 17.5,
+      "success": true
+    },
+    {
+      "topic": "Adoption of the 1992 Constitution and new governance structure",
+      "entries_generated": 3,
+      "tokens_used": 823,
+      "processing_time": 14.1,
+      "success": true
+    },
+    {
+      "topic": "Economic transition and privatization in the 1990s",
+      "entries_generated": 3,
+      "tokens_used": 901,
+      "processing_time": 15.6,
+      "success": true
+    },
+    {
+      "topic": "Mongolia's foreign policy between Russia, China, and the West after 1990",
+      "entries_generated": 3,
+      "tokens_used": 912,
+      "processing_time": 16.0,
+      "success": true
+    },
+    {
+      "topic": "Mining boom: Oyu Tolgoi, Tavan Tolgoi and resource-based growth",
+      "entries_generated": 4,
+      "tokens_used": 956,
+      "processing_time": 17.8,
+      "success": true
+    },
+    {
+      "topic": "Democratic consolidation and political parties development (2000s-2010s)",
+      "entries_generated": 3,
+      "tokens_used": 834,
+      "processing_time": 14.3,
+      "success": true
+    },
+    {
+      "topic": "Environmental challenges and sustainable development efforts",
+      "entries_generated": 3,
+      "tokens_used": 867,
+      "processing_time": 15.0,
+      "success": true
+    },
+    {
+      "topic": "COVID-19 pandemic impact on Mongolia (2020–2022)",
+      "entries_generated": 3,
+      "tokens_used": 792,
+      "processing_time": 13.2,
+      "success": true
+    }
+  ],
+  "errors": [],
+  "generation_timestamp": "2024-11-04T12:00:00Z",
+  "output_files": {
+    "dataset_file": "mongolian_history_dataset.json",
+    "dataset_size_bytes": 45678,
+    "report_file": "generation_report.json",
+    "report_size_bytes": 3456
+  }
+}

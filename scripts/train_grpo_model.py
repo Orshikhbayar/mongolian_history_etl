@@ -14,6 +14,7 @@ Usage:
 import json
 import os
 import re
+import sys
 import time
 import random
 from pathlib import Path
@@ -41,7 +42,7 @@ except ImportError as e:
     print(f"❌ Missing required libraries. Install with:")
     print("pip install transformers trl accelerate peft datasets torch tqdm")
     print(f"Error: {e}")
-    exit(1)
+    sys.exit(1)
 
 # Optional libraries
 try:
